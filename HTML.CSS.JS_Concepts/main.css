@@ -27,8 +27,8 @@ body {
 
 @media(min-width:700px) {
 	#content {
-		width: 60%;
+		width: 450px;
 		margin-top: 2em;
-		margin-left: 18%;
+		margin-left: 30%;
 	}
 }
