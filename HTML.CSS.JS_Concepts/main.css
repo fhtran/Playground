@@ -2,6 +2,11 @@
 	width:100%;
 	text-align:left;
 	background-color:#000000;
-	height:24px
+	height:24px;
 	color: rgb(255, 255, 255);
+	}
+
+#Title_container {
+	text-align: center;
+	height: 50px;
 	}
