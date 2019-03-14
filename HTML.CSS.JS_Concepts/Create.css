@@ -1,0 +1,18 @@
+#container {
+    padding: 1.5em;
+    background: #64A001;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.block {
+    display: block;
+    border: black;
+    background: #FFFFFF;
+    display: inline;
+}
+
+.block:hover {
+    background: black;
+    color: #FFFFFF;
+}
