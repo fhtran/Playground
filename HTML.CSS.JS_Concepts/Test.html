@@ -17,23 +17,28 @@
     <section id="content">
         <div id="Title_container"> 
             <h2>Schedule Manager<h2>
+            <hr>
         </div>
-        <hr>
-        <h3>Please Sign-in:</h3>
+        <h3>-Please Sign in-</h3>
         <div>
-    	    <label>Username:</label>
-    	    <input type=“text” placeholder="Username..." id="Username_input"/>
+    	    <label for="Username_input"><b>Username:</b></label>
+    	    <input type="text" placeholder="Username..." id="Username_input" required/>
         </div>
-            <div>
-    	    <label>Password:</label>
-    	    <input type="text" placeholder="Password..." id="Password_input"/>
         <div>
-    <div id="Accounnt_tools">
-        <nav id="CreateAndForgot">
+    	    <label for="Password_input"><b>Password:</b></label>
+    	    <input type="password" placeholder="Password..." id="Password_input" required/>
+        </div>
+            <button type="submit" class="Sign_in"><b>Sign in</b></button>
+        </div>
+        <div>
+            <label class=Remember_lab>
+                <input type="checkbox" id="Remember"/> Remember me
+            </label>
+        </div>
+        <div class="Account_tools">
     	    <a href="Create.html">Create Account</a> |
     	    <a href="Forgot.html">Forgot Password</a>
-        </nav>
-    </div>
-</section>
+        </div>
+    </section>
 </body>
 </html>
