@@ -52,12 +52,6 @@ button:hover {
   padding: 1em;
 }
 
-.buttons::after {
-content:"";
-clear: both;
-display: table;
-}
-
 @media screen and (max-width: 300px) {
   .Cancel_btn, .Signup_btn {
      width: 100%;
