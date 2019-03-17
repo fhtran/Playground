@@ -11,39 +11,45 @@
 <body>
     <div id="container">
         <h2>Create an Account:</h2>
-        <hr>
         <P>Note: Thank you for attempting to make an account through this non-functional webpage.</P>
+        <hr>
         <div id="i_Setup">
             <div>
-                <label>First Name:</label>
-                <input type=“text” placeholder="First Name..." id="First"/>
+                <label><b>First Name:</b></label>
+                <input type="text" placeholder="First Name..." id="First" required/>
             </div>
             <div>
-                <label>Last Name:</label>
-                <input type="text" placeholder="Last Name..." id="Last"/>
+                <label><b>Last Name:</b></label>
+                <input type="text" placeholder="Last Name..." id="Last" required/>
             </div>
             <div>
-                <label>Valid Email:</label>
-                <input type="text" placeholder="Email..." id="Email"/>
+                <label><b>Valid Email:</b></label>
+                <input type="text" placeholder="Email..." id="Email" required/>
             </div>
         </div>
         <hr>
         <div id="UP_Setup">
             <div>
-                <label>Create Username:</label>
-                <input type=“text” placeholder="Username..." id="Username_input"/>
+                <label><b>Create Username:</b></label>
+                <input type="text" placeholder="Username..." id="Username_input" required/>
             </div>
             <div>
-                <label>Create Password:</label>
-                <input type="password" placeholder="Password..." id="Password_input"/>
+                <label><b>Create Password:</b></label>
+                <input type="password" placeholder="Password..." id="Password_input" required/>
             </div>
             <div>
-                <label>Verify Password:</label>
-                <input type="password" placeholder="Password...again" id="Password_verify"/>
+                <label><b>Verify Password:</b></label>
+                <input type="password" placeholder="Password...again" id="Password_verify" required/>
             </div>
         </div>
         <hr>
-        <div class="buttons">
+        <div>
+            <label>
+                <input type="checkbox" id="Terms_con" required/>
+                By checking this box and pressing "Sign Up" you are agreeing to our<a href="terms.html"> Terms & Conditions</a> and are creating an account for this fake service.
+            </label>
+        </div>
+        <div>
             <button type="button" class="Cancel_btn">Cancel</button>
             <button type="submit" class="Signup_btn">Sign Up</button>
         </div>

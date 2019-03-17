@@ -1,4 +1,5 @@
 #Header_container {
+	font-family: Arial, Helvetica, sans-serif;
 	padding: 1px;
 	text-align: left;
 	background-color:#000000;
@@ -8,6 +9,7 @@
 	}
 
 #content {
+	font-family: Arial, Helvetica, sans-serif;
 	padding: 1.5em;
 	background: rgb(139, 139, 139);
 	border-radius: 10px;
@@ -22,35 +24,75 @@
 	letter-spacing: 0.5px;
 	}
 
+hr {
+color: #000000;
+border: 2px solid;
+margin-top: -.5em;
+margin-bottom: -.5em;
+}
+
 h3 {
 	font-size: 1.4em;
+	margin-bottom: .5em;
+	text-align: center;
 }
 
 label {
-	display: inline-block;
-	width: 27%;
-	font-style: bold;
-	font-size: 1.4em
+	font-size: 1.2em;
 }
 
-input {
+input[type=text], input[type=password]{
+	width: 80%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
 	display: inline-block;
-	width: 50%;
-	font-size: .8em;
+	border: none;
+	font-size: 14px;
 }
 
-#CreateAndForgot {
+input[type=text]:focus, input[type=password]:focus{
+	background-color: #ddd;
+	outline: none;
+}
+
+button {
+  background-color: rgb(212, 196, 47);
+  color: black;
+  padding: 10px;
+  margin: 2px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.Sign_in, .Remember_lab {
+	float: left;
+}
+
+.Remember_lab {
+	margin-top: .5em;
+	margin-left: .5em;
+}
+
+.Account_tools {
 	font-size: 1em;
-	margin-top: 1em;
+	margin-top: 3em;
 	color: #000000;
 	text-decoration: none;
 }
 
-#CreateAndForgot a {
+.Account_tools a {
 color: #000000;
 text-decoration: none;	
 }
 
-#CreateAndForget a:hover {
+.Account_tools a:hover {
 	text-decoration: underline;
 }

@@ -1,12 +1,24 @@
-#container {font-family: Arial, Helvetica, sans-serif;}
+body {background: #61626b;
+background-size: fill;}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+#container {font-family: Arial, Helvetica, sans-serif;
+width: 50%;
+padding: 16px;}
 
 input[type=text], input[type=password] {
-  width: 100%;
+  width: 90%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: #f1f1f1;
+  background: #b9b9c5;
+  color: black;
+  font-size: 14px;
 }
 
 input[type=text]:focus, input[type=password]:focus {
@@ -37,5 +49,11 @@ button:hover {
 .Cancel_btn, .Signup_btn {
   float: left;
   width: 50%;
+  padding: 1em;
 }
 
+@media screen and (max-width: 300px) {
+  .Cancel_btn, .Signup_btn {
+     width: 100%;
+  }
+}
