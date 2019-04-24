@@ -20,16 +20,18 @@
             <hr>
         </div>
         <h3>-Please Sign in-</h3>
-        <div>
-    	    <label for="userInput"><b>Username:</b></label>
-    	    <input type="text" placeholder="Username..." id="userInput" required/>
-        </div>
-        <div>
-    	    <label for="passInput"><b>Password:</b></label>
-    	    <input type="password" placeholder="Password..." id="passInput" required/>
-        </div>
-            <button onclick="Click_test()" type="submit" class="signIn"><b>Sign in</b></button>
-        </div>
+        <form name="mainForm" onsubmit="return(validate())">
+        	<div>
+    	    	<label for="userInput"><b>Username:</b></label>
+    	    	<input type="text" placeholder="Username..." name="userInput"/>
+        	</div>
+        	<div>
+    	    	<label for="passInput"><b>Password:</b></label>
+    	    	<input type="password" placeholder="Password..." name="passInput"/>
+        	</div>
+            	<button type="submit" class="signIn"><b>Sign in</b></button>
+        	</div>
+        </form>
         <div>
             <label class=rememCheck>
                 <input type="checkbox" id="Remember"/> Remember me

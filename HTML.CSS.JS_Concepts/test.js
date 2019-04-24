@@ -1,5 +1,8 @@
 /* eslint-disable linebreak-style */
-function unCheck() {
-	var name = '';
-	if name = 
+function validate() {
+	if (document.mainForm.userInput.value === '') {
+		alert ('Please enter valid username');
+		document.mainForm.userInput.focus();
+		return false;
+	}
 }
