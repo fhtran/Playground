@@ -1,4 +1,4 @@
-#Header_container {
+#topBox {
 	font-family: Arial, Helvetica, sans-serif;
 	padding: 1px;
 	text-align: left;
@@ -18,7 +18,7 @@
 	border: 2px solid rgb(0, 0, 0);
 }
 
-#Title_container {
+#titleBox {
 	text-align: center;
 	font-size: 1.5em;
 	letter-spacing: 0.5px;
@@ -72,27 +72,27 @@ button:hover {
   opacity:1;
 }
 
-.Sign_in, .Remember_lab {
+.signIn, .rememCheck {
 	float: left;
 }
 
-.Remember_lab {
+.rememCheck {
 	margin-top: .5em;
 	margin-left: .5em;
 }
 
-.Account_tools {
+.accTools {
 	font-size: 1em;
 	margin-top: 3em;
 	color: #000000;
 	text-decoration: none;
 }
 
-.Account_tools a {
+.accTools a {
 color: #000000;
 text-decoration: none;	
 }
 
-.Account_tools a:hover {
+.accTools a:hover {
 	text-decoration: underline;
 }
